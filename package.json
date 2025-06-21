@@ -1,0 +1,30 @@
+{
+  "name": "auth-lab-nodejs",
+  "version": "1.0.0",
+  "description": "Methods and practices used to verify the identity of users accessing a Node.js application built with the Express framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oyugijr/auth-lab-nodejs.git"
+  },
+  "keywords": [],
+  "author": "oyugijr",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/oyugijr/auth-lab-nodejs/issues"
+  },
+  "homepage": "https://github.com/oyugijr/auth-lab-nodejs#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "^9.0.2",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
